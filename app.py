@@ -5,7 +5,7 @@ from PIL import Image
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('tyre.h5') 
+    model = tf.keras.models.load_model('tyre_classification.h5') 
     return model
 
 model = load_model()
